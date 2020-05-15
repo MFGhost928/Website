@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+#login{
+	width: 400px;
+	height:260px;
+	padding:13px;
+	
+	position: absolute;
+	left:40%;
+	top:50%;
+	margin-left: -200px;
+	margin-top: -200px;
+	
+	border-radius:  10px;
+	text-align: center;
+}
+
+from p > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+#login_logo {
+	margin-top: 22px;
+	margin-left:25px;
+}
+
+.label_input{
+	font-size: 14px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+	width: 65px;
+	height: 28px;
+	line-height:  28px;
+	text-align: left;
+	
+	color: white;
+	background-color: #3CD8FF;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	
+}
+
+.text_field{
+	width:278px;
+	height:28px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border:0;
+}
+
+#btn_login{
+	font-size: 14px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+	width:120px;
+	height:28px;
+	line-height:  28px;
+	text-align: center;
+	margin-left:-115px;
+	margin-top: 22px;
+	
+	color: white;
+	background-color: #3BD9FF;
+	border-radius: 6px;
+	border:0;
+	
+	float:right;
+	
+}
+
+#forget_pwd{
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+	position: relative;
+	float:right;
+	top:5px;
+	margin-top: 58px;
+}
+
+#forget_pwd:hover{
+	color:blue;
+	text-decoration: underline;
+	
+}
+
+#login_control{
+	padding:10 28px;
+	
+}

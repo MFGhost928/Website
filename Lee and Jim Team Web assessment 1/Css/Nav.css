@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font:normal 100% Helvetica,Arial,sans-serif;
+}
+.main{
+	float: right; width:70%
+}
+.leftbar{float: left;width:25%}
+ul{
+   list-style-type:none;
+   margin:100px 50px;
+   text-align:center;
+   font-size:20px;
+  }
+li{
+   float:left;
+   width:200px;
+   padding:30px;
+  }
+nav{
+	margin: auto 200px auto 200px
+}
+
+h1{
+	margin: auto 200px auto 200px
+}
+h2{
+	margin: auto 200px auto 200px
+}
+p{
+	margin: auto 200px auto 200px
+}
+img{
+	margin: auto 200px auto 200px
+}
